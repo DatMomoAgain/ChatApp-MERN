@@ -18,7 +18,7 @@ const allUsers = asyncHandler(async (req, res) => {
 });
 
 
-//GET /api/user
+//POST /api/user
 const registerUser = asyncHandler(async (req, res) => {
   const { name, email, password, pic } = req.body;
 
