@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import bg from "../chatapp-bg2.png";
+import bg from "../backgroundnew.jpg";
 import "./Homepage.css";
 
 const Home = () => {
