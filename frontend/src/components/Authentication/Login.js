@@ -81,11 +81,11 @@ const Login = () => {
         <Link
           to="/"
         >
-          <p className="app-name">Social-Chat</p>
+          <p className="app-name">TalkSpace</p>
         </Link>
         <div className="registration">Login</div>
         <div className="dont_have">
-          Don't have an account?
+          Don't have an account?&nbsp;
           <Link
             to="/signup"
           >

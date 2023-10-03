@@ -1,19 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import bg from "./bg.jpg";
+import bg from "../chatapp-bg2.png";
 import "./Homepage.css";
 
 const Home = () => {
   return (
     <body>
       <div className="head">
-        <img className="fit" src={bg} alt="" />
-        <p className="app-name">Social-Chat</p>
-        <p className="tag1">Connect With Friends From All Over The World</p>
+        <img className="fit" src={bg}/>
+        <p className="app-nam">TalkSpace</p>
+        <p className="tag1">Space for All Your Conversations</p>
         <Link
           to="/signup"
         >
-          <div className="btn1"><span className="btn1-text">Get Started</span></div>
+          <div className="btn1">Get Started</div>
         </Link>
         <Link
           to="/login"

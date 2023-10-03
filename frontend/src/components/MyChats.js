@@ -65,7 +65,7 @@ const MyChats = ({ fetchAgain }) => {
         justifyContent="space-between"
         alignItems="center"
         fontWeight="bold"
-        color="#5A7EC3"
+        color="#e3b706"
       >
         My Chats
         <GroupChatModal>
@@ -99,7 +99,7 @@ const MyChats = ({ fetchAgain }) => {
               <Box
                 onClick={() => setSelectedChat(chat)}
                 cursor="pointer"
-                bg={selectedChat === chat ? "#0048c4" : "#E8E8E8"}
+                bg={selectedChat === chat ? "#e3b706" : "#E8E8E8"}
                 color={selectedChat === chat ? "white" : "black"}
                 px={3}
                 py={2}

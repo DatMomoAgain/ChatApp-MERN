@@ -12,10 +12,10 @@
   font-size: 36px;
   /* identical to box height */
 
-  color: #0048c4;
+  color: #e3b706;
 }
 
-.registration {
+.registratio {
   position: absolute;
   width: 100px;
   height: 115px;
@@ -27,7 +27,7 @@
   font-size: 30px;
   line-height: 115px;
 
-  color: #0048c4;
+  color: #e3b706;
 }
 
 nblock {
@@ -50,7 +50,7 @@ nblock {
   font-style: normal;
   font-weight: 750;
   font-size: 20px;
-  color: #0048c4;
+  color: #e3b706;
 }
 
 .log {
@@ -62,6 +62,12 @@ nblock {
   font-weight: 750;
   font-size: 20px;
   color: #000;
+
+  transition: color 0.2s;
+}
+
+.log:hover {
+  color: purple;
 }
 
 .enter {
@@ -114,7 +120,7 @@ nblock {
   height: 50px;
   left: 15%;
   top: 100%;
-  background: #0048c4;
+  background: #e3b706;
   border-radius: 30px;
   border: 0px;
   color: white;
@@ -123,6 +129,12 @@ nblock {
   font-weight: 750;
   font-size: 20px;
   line-height: 48px;
+
+  transition: transform .2s;
+}
+
+.s-btn1:hover {
+  transform: scale(1.1); 
 }
 
 .pt {

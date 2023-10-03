@@ -10,7 +10,7 @@
   font-size: 30px;
   line-height: 115px;
 
-  color: #0048c4;
+  color: #e3b706;
 }
 
 nblock {
@@ -33,7 +33,7 @@ nblock {
   font-style: normal;
   font-weight: 750;
   font-size: 20px;
-  color: #0048c4;
+  color: #e3b706;
 }
 
 .enter {
@@ -68,7 +68,7 @@ nblock {
   height: 50px;
   left: 15%;
   top: 45%;
-  background: #0048c4;
+  background: #e3b706;
   border-radius: 30px;
   border: 0px;
   color: white;
@@ -77,4 +77,10 @@ nblock {
   font-weight: 750;
   font-size: 20px;
   line-height: 48px;
+
+  transition: transform 0.2s;
+}
+
+.s-btn:hover {
+  transform: scale(1.1);
 }
