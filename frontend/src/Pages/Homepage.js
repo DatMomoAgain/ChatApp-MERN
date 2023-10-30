@@ -8,7 +8,7 @@ const Home = () => {
     <body>
       <div className="head">
         <img className="fit" src={bg}/>
-        <p className="app-nam">TalkSpace</p>
+        <p className="app-nam">ConnectU</p>
         <p className="tag1">Space for All Your Conversations</p>
         <Link
           to="/signup"

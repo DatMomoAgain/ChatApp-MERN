@@ -119,7 +119,7 @@ const Signup = () => {
         <Link
           to="/"
         >
-          <p className="app-name">TalkSpace</p>
+          <p className="app-name">ConnectU</p>
         </Link>
         <div className="registratio">Register</div>
         <div className="have">
